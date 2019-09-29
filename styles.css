@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.address {
+  display: flex;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.address p:nth-child(2) {
+  margin-left: 80px;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+.address p {
+  font-size: 12px;
+}
+
+/************************Header***************************/
+header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.navbar-nav {
+  padding-top: 150px;
+  float: none;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 85px;
+  padding-top: 75px;
+  letter-spacing: 1rem;
+}
+
+.bg-light {
+  background: white !important;
+}
+
+.dropdown-menu {
+  background: grey;
+}
+.dropdown-item {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+  margin-bottom: 10px;
+}
+
+/*****************************Main + SectionA*****************************/
+.main-picture {
+  background: url("/img/fashion1.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sectiona {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sectiona div {
+  color: white;
+  margin-top: 150px;
+}
+.sectiona div p {
+  font-size: 3.5em;
+  font-weight: normal;
+}
+
+#sectiona-button {
+  color: white !important;
+  border: 1px solid white !important;
+  padding: 15px;
+  font-size: 14px;
+  margin-right: 95px;
+}
+
+#sectiona-button:hover {
+  background-color: white;
+  color: black !important;
+}
+
+/*****************************SectionB****************************/
+.sectionb {
+  height: 500px;
+}
+
+.free {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.pictures img {
+  height: 370px;
+  width: 530px;
+}
+
+.picture1 {
+  background-image: url("img/fashion2.jpg");
+  background-size: cover;
+  height: 370px;
+  width: 200px;
+  border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture1:hover {
+  opacity: 0.8;
+}
+
+.lookbook {
+  color: white;
+  cursor: pointer;
+}
+
+.picture2 {
+  background-image: url("img/fashion3.jpg");
+  background-size: cover;
+  height: 370px;
+  width: 200px;
+  border: 10px solid white;
+}
+.picture2 i {
+  padding-top: 150px;
+  color: white;
+  font-size: 5em;
+  cursor: pointer;
+}
+
+.picture2 i:hover {
+  font-size: 5.3em;
+  transform: 2s;
+}
+
+#videostory {
+  max-width: 75%;
+  margin: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/************************** Button*******************/
+.mfp-hide {
+  display: none !important;
+}
+
+button.mfp-close {
+  overflow: visible;
+  cursor: pointer;
+  background: white;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: 0;
+  padding: 0;
+  z-index: 1;
+  box-shadow: none;
+}
+
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  position: absolute;
+}
+
+/*********************SectionC************************/
+.sectionc {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+}
+/*********************SectionD************************/
+.sectiond img {
+  padding-bottom: 15px;
+}
+
+.sectiond img:hover {
+  transition: transform 0.2s;
+  transform: scale(0.95);
+}
+/*********************Sectione************************/
+.sectione {
+  height: 475px;
+}
+.sectione img {
+  margin-top: 30px;
+}
+
+/*******************FIRST PICTURE*********************/
+.overlay-div {
+  background: url("/img/fashion4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 370px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-top: 50px;
+  border: 10px solid white;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.overlay-div h4 {
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0.3rem;
+}
+
+/****************SECOND PICTURE*****************/
+.overlay-divtwo {
+  background: url("/img/cover5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 370px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-top: 50px;
+  border: 10px solid white;
+}
+
+.overlay-divtwo h4 {
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0.3rem;
+}
+
+.overlay:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*********************Sectionf************************/
+.sectionf {
+  height: 300px;
+}
+
+.info {
+  height: 250px;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.info_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  opacity: 0.3;
+}
+
+.info_div:hover {
+  opacity: 0.8;
+  background: rgb(238, 238, 238);
+}
+
+.info i {
+  font-size: 2em;
+  padding: 10px;
+}
+
+.info h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*************************Sectiong****************************/
+.sectiong {
+  background: #292929;
+  height: 150px;
+}
+
+.sectiong i {
+  color: grey;
+  font-size: 2em;
+}
+
+.email-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.email-icon i {
+  padding-left: 15px;
+}
+.email-input {
+  padding: 10px;
+  background: #f5f5f5;
+  margin-right: 10px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 14px;
+}
+.email-button {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #333347 !important;
+  color: white;
+  border: none;
+  font-size: 11px;
+  font-weight: bold;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/********************************FOOTER**************************/
+footer {
+  padding-top: 70px;
+  height: 500px;
+}
+
+.footdiv h3 {
+  letter-spacing: 0.3rem;
+}
+
+.footdiv h6 {
+  font-size: 12px;
+  color: #292929;
+  font-weight: bold;
+}
+
+.footdiv img {
+  padding: 5px;
+}
+
+.footdiv a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #020235;
+}
+.footdiv p {
+  color: #666666;
+  font-size: 13px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  color: #333347;
+  list-style: none;
+  padding-top: 50px;
+}
+.icons i {
+  padding: 10px;
+}
+
+.two {
+  padding-top: 50px;
+}
+
+#top {
+  color: grey !important;
+  border: 1px solid grey;
+}
+
+#top:hover {
+  background: #333347 !important;
+  color: white !important;
+}
+
+#top:focus,
+#top:active,
+#top:visited {
+  outline: none;
+}
+
+#top-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footdiv hr {
+  padding: 10px;
+}
+/************************ MEDIA QUERIES ****************************/
+@media screen and (max-width: 500px) {
+  /****SECTIONA****/
+  #sectiona-button {
+    margin-right: 0px;
+  }
+  .navbar-nav {
+    padding-top: 0;
+  }
+  /****SECTIONC****/
+  .sectionc {
+    margin-top: 400px;
+  }
+  .overlay-divtwo {
+    margin-top: 5px;
+  }
+  /***SECTIONF****/
+  .sectionf {
+    height: 580px;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    height: 600px;
+  }
+  .info_div {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .info h6 {
+    padding-top: 15px;
+  }
+  .info i {
+    margin-top: 40px;
+  }
+  /*****SectionG*****/
+  .sectiong {
+    margin-top: 50px;
+    height: 200px;
+  }
+  /******FOOTER*****/
+  .footdiv h6 {
+    padding-top: 15px;
+  }
+  .footdiv img {
+    height: 120px;
+    width: 120px;
+  }
+}
